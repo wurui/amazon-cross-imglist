@@ -21,7 +21,7 @@
 	            	<xsl:variable name="layer">
 	            		<xsl:choose>
 	            			<xsl:when test="$index &lt; $total_layer"><xsl:value-of select="$index"/></xsl:when>
-	            			<xsl:otherwise><xsl:value-of select="$total_layer - $index mod $total_layer - 1"/></xsl:otherwise>
+	            			<xsl:otherwise><xsl:value-of select="$count - $index"/></xsl:otherwise>
 	            		</xsl:choose>
 	            	</xsl:variable>
 	            	

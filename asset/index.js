@@ -23,7 +23,7 @@ define([],function(){
     		var i=(idx + count - currentIndex)%count;
     		
     		var direction=i<total_layer?1:-1,
-    		layer=i<total_layer?i:(total_layer - i % total_layer - 1);
+    		layer=i<total_layer?i:(count - i);
 
     		//console.log('i=',i,' layer=',layer)
 
