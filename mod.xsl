@@ -1,7 +1,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:oxm="https://www.openxsl.com">
     <xsl:template match="/root" name="wurui.amazon-cross-imglist">
         <!-- className 'J_OXMod' required  -->
-        <div class="J_OXMod oxmod-amazon-cross-imglist" ox-mod="amazon-cross-imglist">
+        <div class="J_OXMod oxmod-amazon-cross-imglist skin-bgcolor" ox-mod="amazon-cross-imglist">
             <xsl:variable select="data/ui-imglist/i" name="list"/>
         	<xsl:variable select="count($list)" name="count"/>
         	

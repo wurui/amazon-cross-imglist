@@ -1,10 +1,10 @@
 {
-  "RULE_VERSION":"20180724",
+  "RULE_VERSION":"20190605",
   "name": "amazon-cross-imglist",
   "apiDependencies": [
-  {
-    "name": "ui-imglist"
-  }
-]
+	  {
+	    "name": "ui-imglist"
+	  }
+  ]
 }
 
